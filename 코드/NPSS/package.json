@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "@tosspayments/payment-widget-sdk": "^0.10.2",
+        "axios": "^1.6.8",
+        "cors": "^2.8.5",
+        "create-react-app": "^5.0.1",
+        "express": "^4.19.2",
+        "mysql2": "^3.9.7",
+        "oracledb": "^6.5.0",
+        "react-icons": "^5.2.1",
+        "react-project": "^0.0.30",
+        "react-router-dom": "^6.23.1"
+    }
+}

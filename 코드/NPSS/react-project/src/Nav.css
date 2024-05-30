@@ -1,0 +1,32 @@
+/* footer */
+.footerbar {
+    width: 100%;
+    background-color: rgb(17, 82, 147);
+    padding: 15px 15px;
+    display: flex;
+    justify-content: left;
+    color: whitesmoke;
+}
+
+
+/* header */
+.navbar {
+    width: 100%;
+    background-color: rgb(17, 82, 147);
+    padding: 5px 0px;
+    /* text-align: right; */
+    display: flex;
+    justify-content: right;
+}
+
+.navbarMenu {
+    color: whitesmoke;
+    margin: 8px;
+    text-decoration: none;
+}
+.navbarMenu>a {
+    color: whitesmoke;
+    margin: 8px;
+    text-decoration: none;
+    text-align: right;
+}

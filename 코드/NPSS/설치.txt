@@ -1,0 +1,14 @@
+1. 오라클 연결
+    npm i oracledb
+
+
+2. react-icons 아이콘 불러오기
+    npm install react-icons --save
+    import {아이콘 이름} from "react-icons/ri";
+
+3. fonot awesome 아이콘
+    npm install react-icons --save
+
+npm install @material-ui/styles
+
+npm i @emotion/css   --> 안됨
