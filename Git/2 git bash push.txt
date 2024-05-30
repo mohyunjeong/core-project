@@ -1,0 +1,27 @@
+cd ~~  ==> 경로변경
+
+git init ==> 깃 명령어 사용가능하게끔 초기화
+
+git config --global user.name "이름"
+git config --global user.email "이메일" ===> 개인정보 등록
+
+git add . ==> 커밋할 수 있게끔 활성화 / unstage changes 저장공간에서 stage changes  저장공간으로 내림
+
+git commit -m "커밋 메시지" ==> 커밋 진행
+
+git remote add origin 원격저장소주소 ==> 원격저장소 등록 (원격 저장소 url 붙여넣기 : shift + insert) / origin이라는 이름으로 변경
+
+git push origin master ==> 원격 저장소(origin)에 푸쉬 
+
+★push 후 단톡방에 꼭 말해주기!★
+
+===============
+
+git remote -v ==> 현재 연결되어있는 원격저장소 확인
+
+===============
+
+[다시 커밋 할 때]
+git add .
+git commit -m "커밋 메시지"
+git push origin master

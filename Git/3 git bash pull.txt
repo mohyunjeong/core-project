@@ -1,0 +1,27 @@
+cd 경로변경 ==> 다운로드 받을 폴더위치로 이동
+
+git init ==> 깃 명령어 사용가능하게끔 초기화
+
+git config --global user.name "이름"
+git config --global user.email "이메일주소"  ==> 개인정보 등록
+
+git remote add origin 원격저장소주소 ==> 원격저장소 등록 (원격 저장소 url 붙여넣기 : shift + insert)
+
+git pull origin master ===> pull 명령어 / 원격저장소에 있는 내용 가져오기
+
+=====================
+
+[다운로드 후 vscode 터미널에]
+npm install ==> node_modules 설치!!
+
+====================
+팀원 코드 다시 pull 하려면? 
+1. git pull origin master
+
+2. (내 컴퓨터에서 수정사항이 있다면)
+git add .
+
+git commit -m "Test커밋"
+
+git pull origin master
+

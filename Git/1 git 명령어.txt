@@ -1,0 +1,31 @@
+git init
+==> 깃 명령어 사용가능하게끔 초기화
+
+git config --global user.name "이름"
+git config --global user.email "이메일"
+==>개인 정보 등록
+
+커밋
+1. git add . 
+==> 커밋할 수 있게끔 활성화
+2. git commit -m "커밋메세지"
+==>커밋 진행
+
+git remote add origin 원격저장소 주소
+==>원격저장소 등록
+
+git push origin master
+==>원격저장소에 푸쉬
+
+git pull origin master
+==> 원격저장소에 있는 내용 가져오기
+
+///추가 git 명령어///
+git config --global --list
+==> 등록 되어있는 유저 정보 확인
+
+git remote -v
+==>현재 연결 되어있는 원격 저장소를 확인
+
+rm -rf .git
+==>git init 취소

@@ -1,0 +1,29 @@
+sagada store
+기능:색 변환,밝기제어
+장점: 취향에 맞는 색,밝기 선택 가능 
+단점: 스마트기능없음  따라서 전력제어X
+https://smartstore.naver.com/sagadastore/products/5510141802?NaPm=ct%3Dlv28q0y8%7Cci%3D32f5344f62546591aa731fd7a9eb5a498895d65a%7Ctr%3Dsls%7Csn%3D2449959%7Chk%3Dbf70c62d25ac181f3ed90c5c8d7fec19c1ce2664
+
+grinmax mall 
+기능: 색 변환,밝기제어,스마트폰 조작
+장점:스마트폰 조작으로 편의성 ↑,원격제어 가능 
+단점:스마트폰 어플 실행=>귀찮음  
+https://item.gmarket.co.kr/Item?goodscode=2082645988&GoodsSale=Y&jaehuid=200001169&NaPm=ct%3Dlv28tcjs%7Cci%3D064c932105349d9852dee74935f9d7512557f401%7Ctr%3Dslsl%7Csn%3D24%7Chk%3D944bd1237a0d433305752e7fcd5e70735dff86b7
+
+수빈led
+기능:자동 밝기제어,온도센서 결합=>전자제품 연결 가능  
+장점:조도 센서를 통해 자동 밝기 제어 , 온도센서를 통한 냉,난방 결합 가능
+단점: 높은 가격이 경쟁력을 위협할 수 있음
+
+차별성
+
+일반적인 전등을 on/off 기능 보다도 나아가서
+조도센서를 통한 자동 밝기 조절 기능으로 전력 감소를 기대해보고,
+온도센서+냉,난방 가전제품 결합으로
+사용자에게 편의성을 제공 해준다.
+
+
+
+
+
+
