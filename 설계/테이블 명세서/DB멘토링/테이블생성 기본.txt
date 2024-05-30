@@ -1,0 +1,47 @@
+-- 테이블 생성 SQL - solar_info
+CREATE TABLE solar_info
+(
+    solar_idx      NUMBER(18, 0)    NOT NULL, 
+    solar_watt     NUMBER(18, 1)    NOT NULL, 
+    created_at     DATE             NOT NULL, 
+    ess_storage    NUMBER(18, 1)    NOT NULL, 
+    user_id        VARCHAR2(30)     NOT NULL, 
+     PRIMARY KEY (solar_idx)
+);
+
+-- 시퀀스란? 앞뒤 순서를 알 수 있는 데이터
+-- x축이 시간 영역(Time Domain)인 게 특징임. 시계열 데이터(Time Series).
+-- 전기 생산량, 전력 판매량, 주가의 변화, 아파트 시세, 악보, 글번호 
+
+-- (오라클) 시퀀스는 단순한 번호 발행기
+
+CREATE SEQUENCE solar_info_SEQ
+START WITH 1
+INCREMENT BY 1;
+
+(현재값) 0 : solar_info_SEQ.CURRVAL
+(다음값) 1 : solar_info_SEQ.NEXTVAL
+
+-- Auto Increment를 위한 Trigger 추가 SQL - solar_info.solar_idx
+CREATE OR REPLACE TRIGGER solar_info_AI_TRG
+BEFORE INSERT ON solar_info 
+REFERENCING NEW AS NEW FOR EACH ROW 
+BEGIN 
+    SELECT solar_info_SEQ.NEXTVAL
+    INTO :NEW.solar_idx
+    FROM DUAL;
+END;
+
+SELECT 3 + 2 FROM DUAL;
+
+(SQL)
+INSERT INTO solar_info (solar_watt, created_at, ess_storage, user_id) 
+VALUES (257, sysdate, 1, 'user_id 1');
+
+(PL/SQL) : SQL + 조건문/반복문/변수 선언...
+
+NEW.solar_idx = 1 
+NEW.solar_watt = 257
+NEW.created_at = sysdate
+...
+
